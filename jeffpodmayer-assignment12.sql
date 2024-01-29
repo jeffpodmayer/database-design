@@ -59,8 +59,6 @@ VALUES ('Trevor','Page', 2265554982);
 INSERT INTO customers (first_name, last_name, phone_number)
 VALUES ('John','Doe', 5555559498);
 
-SELECT * FROM customers;
-
 -- order table
 INSERT INTO orders (order_amount, order_date, customer_id)
 VALUES (22.98,'2014-09-10 09:47:00',1);
